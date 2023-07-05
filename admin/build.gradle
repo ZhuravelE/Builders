@@ -1,0 +1,12 @@
+plugins {
+    id 'application'
+}
+
+dependencies {
+    implementation project(':services')
+    implementation project(':utils')
+}
+
+application {
+    mainClassName = 'com.builder.admin.AdminEntryPoint'
+}
